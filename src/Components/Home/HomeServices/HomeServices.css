@@ -1,0 +1,71 @@
+.services_title {
+	font-size  : 50px;
+	padding    : 70px;
+	text-align : center;
+	color      : #1597E5;
+}
+
+.services_container {
+	display         : flex;
+	justify-content : space-around;
+}
+
+.service {
+	overflow      : hidden;
+	width         : 28%;
+	height        : auto;
+	margin        : 0 0 50px 0;
+	transition    : all .5s ease;
+	border        : 1px solid #1597E5;
+	border-radius : 20px;
+}
+
+.service:hover {
+	transform  : translate(-10px, -10px);
+	box-shadow : 10px 10px 10px rgba(0, 0, 0, 0.47);
+}
+
+.service_image {
+	width : 100%;
+}
+
+.service_title, .service_description {
+	padding : 10px 20px;
+}
+
+.service_title {
+	font-size : 30px;
+	color     : #00b9cf;
+}
+
+.service_description {
+	font-size : 20px;
+}
+
+.serviceButton {
+	font-size        : 20px;
+	margin           : 0 0 20px 20px;
+	padding          : 10px 20px;
+	color            : white;
+	border           : none;
+	border-radius    : 20px;
+	background-color : #00b9cf;
+}
+
+@media screen and (max-width : 1100px) {
+	.home_service_container {
+		display : block;
+	}
+	
+	.home_service {
+		width  : 55%;
+		margin : 0 auto 50px auto;
+	}
+}
+
+@media screen and (max-width : 600px) {
+	.home_service {
+		width  : 90%;
+		margin : 0 auto 50px auto;
+	}
+}

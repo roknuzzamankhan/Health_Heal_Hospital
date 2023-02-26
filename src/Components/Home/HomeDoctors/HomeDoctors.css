@@ -1,0 +1,77 @@
+.doctors_title {
+	font-size  : 50px;
+	padding    : 70px;
+	text-align : center;
+	color      : #1597E5;
+}
+
+.doctors_moto {
+	font-size  : 20px;
+	width      : 90%;
+	margin     : 10px auto;
+	text-align : center;
+	color      : #1597E5;
+}
+
+.doctors_container {
+	display         : flex;
+	justify-content : space-around;
+}
+
+.doctor {
+	overflow      : hidden;
+	width         : 28%;
+	height        : auto;
+	margin        : 0 0 50px 0;
+	transition    : all .5s ease;
+	border        : 1px solid #1597E5;
+	border-radius : 20px;
+}
+
+.doctor:hover {
+	transform  : translate(-10px, -10px);
+	box-shadow : 10px 10px 10px rgba(0, 0, 0, 0.47);
+}
+
+.doctor_image {
+	width               : 100%;
+	height              : 300px;
+	background-repeat   : no-repeat;
+	background-position : center;
+	background-size     : cover;
+}
+
+.doctor_title, .doctor_category, .doctor_phone {
+	padding : 10px 20px;
+}
+
+.doctor_title {
+	font-size : 30px;
+	color     : #00b9cf;
+}
+
+.doctor_category {
+	font-size : 20px;
+}
+
+.doctor_phone {
+	font-size : 18px;
+}
+
+@media screen and (max-width : 1100px) {
+	.doctors_container {
+		display : block;
+	}
+	
+	.doctor {
+		width  : 55%;
+		margin : 0 auto 50px auto;
+	}
+}
+
+@media screen and (max-width : 600px) {
+	.doctor {
+		width  : 90%;
+		margin : 0 auto 50px auto;
+	}
+}

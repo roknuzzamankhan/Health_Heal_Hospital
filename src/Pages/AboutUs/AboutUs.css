@@ -1,0 +1,46 @@
+.aboutUs {
+	position            : relative;
+	height              : 100vh;
+	background-position : center;
+	background-size     : cover;
+}
+
+.aboutUsInfo {
+	position : absolute;
+	top      : 48%;
+	left     : 8%;
+	width    : 40%;
+}
+
+.aboutUsInfo h1 {
+	font-size : clamp(30px, 5vw, 50px);
+	color     : #1597E5;
+}
+
+.aboutUsInfo p {
+	font-size : clamp(20px, 3vw, 30px);
+}
+
+@media screen and (max-width : 904px) {
+	.aboutUsInfo {
+		position : center;
+	}
+	
+}
+
+@media screen and (max-width : 600px) {
+	.aboutUs {
+		filter : brightness(40%);
+	}
+	
+	.aboutUsInfo {
+		position : center;
+		top      : 60%;
+		width    : 90%;
+	}
+	
+	.aboutUsInfo p {
+		color : white;
+	}
+	
+}

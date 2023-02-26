@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Primary Health Care",
+    "img" : "http://webdesign-finder.com/valeo_v2/wp-content/uploads/2019/07/Depositphotos_83196752_original.jpg",
+    "description": "Fatback pork belly frankfurter tri-tip bresaola picanha. Ground round andouille picanha cupim"
+  },
+  {
+    "id": 2,
+    "title": "Gynaecological Clinic",
+    "img": "http://webdesign-finder.com/valeo_v2/wp-content/uploads/2019/07/Depositphotos_100740892_original.jpg",
+    "description": "Jerky brisket turducken, chop andouille shankle turkey ball tip biltong bresaola capicola"
+  },
+  {
+    "id": 3,
+    "title": "Diagnosis With Precise",
+    "img": "http://webdesign-finder.com/valeo_v2/wp-content/uploads/2019/07/Depositphotos_80150830_original.jpg",
+    "description": "Fatback pork belly frankfurter tri-tip bresaola picanha. Ground round andouille picanha cupim"
+  },
+  {
+    "id": 4,
+    "title": "General Surgery",
+    "img": "http://webdesign-finder.com/valeo_v2/wp-content/uploads/2019/07/Depositphotos_76571235_original.jpg",
+    "description": "Jerky brisket turducken, chop andouille shankle turkey ball tip biltong bresaola capicola"
+  },
+  {
+    "id": 5,
+    "title": "Rehabilitation Studio",
+    "img": "http://webdesign-finder.com/valeo_v2/wp-content/uploads/2019/07/Depositphotos_78288682_original.jpg",
+    "description": "Fatback pork belly frankfurter tri-tip bresaola picanha. Ground round andouille picanha cupim"
+  },
+  {
+    "id": 6,
+    "title": "Cardiac Clinic",
+    "img": "http://webdesign-finder.com/valeo_v2/wp-content/uploads/2019/07/Depositphotos_76570869_original.jpg",
+    "description": "Jerky brisket turducken, chop andouille shankle turkey ball tip biltong bresaola capicola"
+  }
+]

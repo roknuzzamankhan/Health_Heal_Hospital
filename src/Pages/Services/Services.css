@@ -1,0 +1,24 @@
+.services_container {
+	display               : grid;
+	grid-template-columns : repeat(3, 1fr);
+	
+}
+
+.service {
+	width : 90%;
+}
+
+@media screen and  (max-width : 900px) {
+	.services_container {
+		text-align            : center;
+		grid-template-columns : repeat(2, 1fr);
+	}
+}
+
+@media screen and  (max-width : 600px) {
+	.services_container {
+		display    : block;
+		margin     : 0 auto;
+		text-align : center;
+	}
+}

@@ -1,0 +1,43 @@
+footer {
+	width            : 100%;
+	height           : auto;
+	padding          : 30px 0;
+	color            : white;
+	background-color : black;
+}
+
+.footerInfos {
+	display         : flex;
+	justify-content : space-around;
+}
+
+.socialLinks p {
+	font-size    : 30px;
+	display      : inline-block;
+	margin-right : 20px;
+}
+
+.copyright {
+	margin     : 0 0 50px 0;
+	text-align : center;
+}
+
+@media screen and (max-width : 500px) {
+	.footerInfos {
+		display : block;
+		width   : 100%;
+		margin  : 0 auto;
+	}
+	
+	.footerInfos > div {
+		margin : 0 0 20px 0;
+	}
+	
+	.footerInfos p {
+		text-align : center;
+	}
+	
+	.socialLinks {
+		text-align : center;
+	}
+}

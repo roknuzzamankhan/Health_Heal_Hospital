@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Vickie Bryant",
+    "img": "https://image.freepik.com/free-photo/confident-young-asia-female-doctor-white-medical-uniform-with-stethoscope-looking-camera-smiling-while-video-conference-call-with-patient-health-hospital_7861-3136.jpg",
+    "category": "General Doctor",
+    "phone": "1 (800) 254 4512"
+  },
+  {
+    "id": 2,
+    "name": "Geraldine Graham",
+    "img": "https://image.freepik.com/free-photo/cheerful-male-doctor-white-gown-portrait_53876-108640.jpg",
+    "category": "Dental Surgeon",
+    "phone": "1 (800) 700 8000"
+  },
+  {
+    "id": 3,
+    "name": "Valerie Farmer",
+    "img": "https://as2.ftcdn.net/v2/jpg/03/05/41/27/500_F_305412791_XRNiWaFCREjLLpSQfj0e736foBoYXXYv.jpg",
+    "category": "Cosmetic Surgeon",
+    "phone": "1 (800) 254 4512"
+  },
+  {
+    "id": 4,
+    "name": "Eloise Stephens",
+    "img": "https://images.unsplash.com/photo-1601583789200-96cd7f385315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    "category": "Therapy",
+    "phone": "1 (800) 600 2540"
+  },
+  {
+    "id": 5,
+    "name": "Robin Ramsey",
+    "img": "https://images.unsplash.com/photo-1622567182060-95c7dcf6a2f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "category": "General Doctor",
+    "phone": "1 (800) 254 4552"
+  },
+  {
+    "id": 6,
+    "name": "Claudia Ortiz",
+    "img": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+    "category": "Gynecologist",
+    "phone": "1 (800) 254 6000"
+  }
+]

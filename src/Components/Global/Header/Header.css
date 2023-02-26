@@ -1,0 +1,168 @@
+.navbar {
+	width            : 100%;
+	height           : auto;
+	padding          : 20px 20px;
+	background-color : #1597E5;
+}
+
+.nav_d-flex {
+	display         : flex;
+	align-items     : center;
+	justify-content : space-between;
+}
+
+.logo {
+	width : 30%;
+}
+
+.logo img {
+	width : 320px;
+}
+
+.navLinks {
+	width : 58%;
+}
+
+.nav_link {
+	font-size       : 20px;
+	display         : inline-block;
+	margin-left     : 54px;
+	list-style      : none;
+	transition      : all .5s ease;
+	text-align      : center;
+	text-decoration : none;
+	color           : white;
+}
+
+.nav_link:hover {
+	padding       : 2px 0;
+	border-bottom : 2px solid #1597E5;
+}
+
+.signedOption > div {
+	font-size       : 13px;
+	display         : flex;
+	align-items     : center;
+	justify-content : space-between;
+	width           : auto;
+	max-width       : 200px;
+	height          : 53px;
+	padding         : 5px 10px;
+	transition      : all 1s ease;
+	color           : white;
+	border          : 5px solid white;
+	border-radius   : 30px;
+}
+
+.signInfo {
+	display         : flex;
+	align-items     : center;
+	justify-content : space-around;
+}
+
+.signImg {
+	display       : inline-block;
+	overflow      : hidden;
+	width         : 35px;
+	height        : 35px;
+	border        : 1px solid white;
+	border-radius : 50%;
+}
+
+.profilePic {
+	width : 100%;
+}
+
+.whenSignedIn {
+	transition       : all 1s ease;
+	color            : white;
+	border           : none;
+	background-color : transparent;
+}
+
+.notSignedIn {
+	transition : all 1s ease;
+	
+}
+
+@media screen and (max-width : 1600px) {
+	.logo {
+		width : 40%;
+	}
+	
+	.navLinks {
+		width : 50%;
+	}
+	
+	.navLinks ul {
+		display         : flex;
+		flex-wrap       : wrap;
+		justify-content : center;
+		text-align      : center;
+	}
+	
+	.navLinks ul li {
+		width       : 100px;
+		margin-left : 30px;
+		text-align  : center;
+		
+	}
+}
+
+@media screen and (max-width : 1530px) {
+	.signedOption {
+		border : none;
+	}
+	
+	.signInfo {
+		display : none;
+	}
+	
+	.signImg {
+		min-width  : 35px;
+		min-height : 35px;
+		margin     : 0 0 0 67%;
+	}
+}
+
+@media screen and (max-width : 780px) {
+	.logo img {
+		width     : 125%;
+		min-width : 210px;
+		margin    : 0 0 20px 0;
+	}
+	
+	.nav_d-flex {
+		display : block;
+		width   : 100%;
+		margin  : 0 auto;
+	}
+	
+	.logo {
+		display : block;
+		margin  : 0 auto;
+	}
+	
+	.navLinks {
+		width  : 100%;
+		margin : 10px auto;
+	}
+	
+	.signedOption {
+		min-width : 140px;
+		height    : 47px;
+		margin    : 0 auto;
+		
+	}
+	
+	.signInfo {
+		display : inline-block;
+		width   : 100px;
+	}
+	
+	.signImg {
+		display : inline-block;
+		margin  : 0 0 0 0;
+	}
+	
+}

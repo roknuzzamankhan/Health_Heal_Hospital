@@ -1,0 +1,21 @@
+.serviceDetail {
+	width      : 100%;
+	margin     : 50px auto;
+	text-align : center;
+}
+
+.serviceDetail img {
+	width     : 70%;
+	max-width : 700px;
+}
+
+.serviceDetail h1 {
+	font-size : clamp(20px, 4vw, 50px);
+}
+
+
+.serviceDetail p {
+	font-size : clamp(16px, 2vw, 20px);
+	width     : 70%;
+	margin    : 0 auto;
+}
